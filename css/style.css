@@ -64,7 +64,7 @@
     color: white;
     background-color: #5a6fd8f1;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.5s;
+    transition: all 1s ease;
 }
 
 /*================ about ===========*/
@@ -134,7 +134,7 @@
 }
 
 .portfolio-one{
-    background-color: #FFEFE6;
+    background-color: #FFEFE5;
 }
 
 .portfolio-two{
@@ -152,8 +152,8 @@
     border-radius: 10px;
 }
 
-.language-color{
-    background-color: #F1DFD8!important;
+.language-color-one{
+    background-color: #F1DFD8;
 }
 
 .language-color-two{
