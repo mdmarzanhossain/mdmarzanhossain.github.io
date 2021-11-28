@@ -89,9 +89,22 @@
 
 .skill-container h1{
     color: #5a6fd8f1;
+    font-weight: bold;
 }
 
 .skill-container p{
     font-size: 25px;
     color: #4a5568;
+}
+
+.skill-container h4{
+    color: #333C66;
+}
+
+.skill-container img{
+    width: 50px;
+}
+
+.skill-description{
+    font-size: 20px !important;
 }
