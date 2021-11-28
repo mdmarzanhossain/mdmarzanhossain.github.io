@@ -108,3 +108,59 @@
 .skill-description{
     font-size: 20px !important;
 }
+
+/* ============portfolio=========== */
+
+#portfolio{
+    background-color: #f9f9fa!important;
+}
+
+#portfolio h1{
+    font-weight: bold;
+    color: #5a6fd8f1;
+}
+
+.portfolio-mainText{
+    font-size: 25px;
+    color: #4a5568;
+}
+.card{
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.portfolio-one{
+    background-color: #FFEFE6;
+}
+
+.portfolio-two{
+    background-color: #E5F4FF;
+}
+
+.portfolio-three{
+    background-color: #E3E6FF;
+}
+
+.language{
+    font-size: 18px !important;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.language-color{
+    background-color: #F1DFD8!important;
+}
+
+.language-color-two{
+    background-color: #D5E5F4;
+}
+
+.language-color-three{
+    background-color: #DADDF4;
+}
+
