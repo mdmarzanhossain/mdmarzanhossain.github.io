@@ -1,0 +1,97 @@
+/* ===============nav-bar============= */
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+.first-name{
+    color: #333C66;
+}
+
+.last-name{
+    color: #4B5EBE;
+}
+
+.nav-item{
+    padding-right: 5px;
+}
+
+.nav-link{
+    color: #4B5EBE !important;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: black !important;
+    font-weight: 600;
+}
+
+
+/* ===============jumbotron============= */
+
+.jumbotron-container{
+    background-image: url(../images/bg-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profession{
+    font-size: 25px;
+    color: #919EC4;
+    font-weight: bold;
+}
+
+.jumbotron-text{
+    font-family: 'Lobster', cursive;
+    color: #333C66;
+    font-size: 40px;
+}
+
+.jumbotron-firstText{
+    color: #4B5EBE;
+}
+
+.jumbotron-btn{
+    position: relative;
+    background-color: #5A6FD8;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.jumbotron-btn:hover{
+    top: -2px;
+    color: white;
+    background-color: #5a6fd8f1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+
+/*================ about ===========*/
+
+.about{
+    background-image: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    font-size: 27px;
+    color: #5B687B;
+}
+
+
+/* ==========technical skill ==========*/
+
+.skill-container{
+    background-color: #f9f9fa;
+}
+
+.skill-container h1{
+    color: #5a6fd8f1;
+}
+
+.skill-container p{
+    font-size: 25px;
+    color: #4a5568;
+}
