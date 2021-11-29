@@ -1,4 +1,10 @@
 /* ===============nav-bar============= */
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
@@ -34,6 +40,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .profession{
     font-size: 25px;
@@ -78,8 +85,8 @@
 .about-text{
     font-size: 27px;
     color: #5B687B;
+    text-align: justify;
 }
-
 
 /* ==========technical skill ==========*/
 
@@ -87,7 +94,7 @@
     background-color: #f9f9fa;
 }
 
-.skill-container h1{
+.brand-text{
     color: #5a6fd8f1;
     font-weight: bold;
 }
@@ -129,6 +136,11 @@
     border-radius: 20px;
 }
 
+.card:hover{
+    top: -2px;
+    box-shadow: 0 0 40px rgb(167, 167, 167)
+}
+
 .card-text{
     font-size: 18px;
 }
@@ -164,3 +176,59 @@
     background-color: #DADDF4;
 }
 
+/* ===========contact=========== */
+
+.form-control{
+    background-color: #EDF2F7;
+    border: none;
+}
+
+.form-control:hover{
+    box-shadow: 0 0 5px rgba(155, 155, 155, 0.637);
+}
+
+/* =======footer====== */
+
+.footer{
+    background-color: #EDF2F7;
+}
+
+.footer a{
+    color: #4e67e6;
+}
+.contact-icon{
+    font-size: 30px;
+}
+
+.contact-icon:hover{
+    color:#5a6fd8c9;
+}
+
+@media screen and (max-width: 320px) {
+    .language{
+        font-size: 15px!important;
+    }
+    .portfolio-mainText{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron-container{
+        background-size: 100% 100%;
+    }
+
+    .about-text{
+        font-size: 20px;
+        margin: 0!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-text{
+        font-size:15px;
+    }
+    .language{
+        font-size: 12px !important;
+    }
+}

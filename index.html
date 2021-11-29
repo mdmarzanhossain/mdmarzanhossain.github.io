@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/all.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -35,7 +37,7 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -54,7 +56,7 @@
                     <div>
                         <p class="profession">Software Engineer</p>
                         <h2 class="jumbotron-text mb-5"><span class="jumbotron-firstText">Hi there, I’m Marzan Hossain.</span><br>I help startups build amazing apps</h2>
-                        <a href="https://www.linkedin.com/in/marzan8975/" class="btn jumbotron-btn">GET IN TOUCH</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/marzan8975/" class="btn jumbotron-btn">GET IN TOUCH</a>
                     </div>
                 </div>
             </div>
@@ -65,15 +67,12 @@
     <div class="container-fluid about mt-5" id="about">
         <div class="container">
             <div class="row">
-                <div class="offset-1 col-md-10 col-sm-10">
-                    <p class="about-text ms-5 me-5 mb-5">My name is Ivan Votti. I’m a frontend developer with a full-stack background and a keen eye for good design. I love to make complex things simple and joy to use. Currently, I focus on building single-page applications with React and Ember.
+                <div class="offset-md-1 col-md-10">
+                    <p class="about-text ms-5 me-5 mb-5">My name is Marzan Hossain. I have completed my Bachelor degree in CSE form United International University. After my graduation. I have joined in my family business. I worked there more than 2 years. 
+                        However, My dream was work to with my passion and become Software Engineer. Now I am working hard on this. This is my Portfolio Site. You can follow me on my gitHub to see my latest project.
                         <br>
                         <br>
-                        Over the past 8 years, I’ve gained experience across most aspects of the application lifecycle, including frontend, backend, and dev-ops. This allows me to take full ownership of a project from design to implementation and deployment.
-                        <br>
-                        <br>
-                        I started as a backend developer on Python/Django stack. At some point, I found out that I enjoy contributing to user experience and design. Since then, I’ve changed my focus to frontend development.</p>
-                
+                        I started with learning HTML/CSS and then JavaScript, React JS. Now I am working in an education based software company. Where I am learning and also working on C# and ASP.NET. My goal is to working here for few years and explore my knowledge.
                 </div>  
             </div>
         </div>
@@ -82,8 +81,12 @@
     <!-- technical skill -->
     <div class="container-fluid mt-5 skill-container" id="skill">
         <div class="container pb-5">
-            <h1 class="pt-5">Technical skill set</h1>
-            <p class="pb-5">I’m constantly learning and keep up to date with the latest<br> technologies, so I can pick the best tech for the job.</h3>
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="pt-5 brand-text">Technical skill set</h1>
+            <p class="pb-5">I’m constantly learning and keep up to date with the latest technologies, so I can pick the best tech for the job.</h3>
+                </div>
+            </div>
             
                 <div class="row">
                     <div class="col-md-6">
@@ -91,14 +94,16 @@
                             <img class="me-4" src="./images/css2.png" alt="">
                             <h4>HTML/CSS</h4>
                         </div>
-                       <p class="skill-description">I write semantic markup with accessibility in mind. I keep my CSS manageable and scalable strictly following BEM conventions.</p>
+                       <p class="skill-description">I write semantic markup with accessibility in mind. 
+                           I keep my CSS manageable and scalable strictly following BEM conventions.</p>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center mb-3">
                             <img class="me-4" src="./images/js.png" alt="">
                             <h4>JavaScript</h4>
                         </div>
-                        <p class="skill-description">It’s my main language and I know it well. I focus on building single-page apps with attention to code quality and best practices.</p>
+                        <p class="skill-description">It’s my main language and I know it well. 
+                            I focus on building single-page apps with attention to code quality and best practices.</p>
                     </div>
                 </div>
 
@@ -108,14 +113,16 @@
                             <img class="me-4" src="./images/asp.net2.png" alt="">
                             <h4>ASP.Net</h4>
                         </div>
-                        <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt!</p>
+                        <p class="skill-description">ASP.NET is an open-source, server-side web-application framework. 
+                            At present, I am learning it for web development to produce dynamic web pages.</p>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center mb-3">
                             <img class="me-4" src="./images/csharp2.png" alt="">
                             <h4>C#</h4>
                         </div>
-                        <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nostrum, vel voluptatem nobis doloribus reprehenderit.</p>
+                        <p class="skill-description">C# (C-Sharp) is a programming language developed by Microsoft that runs on the .NET Framework. 
+                            I am also learning and working on it for developing applications.</p>
                     </div>
                 </div>
 
@@ -125,14 +132,14 @@
                             <img class="me-4" src="./images/react.png" alt="">
                             <h4>React JS</h4>
                         </div>
-                        <p class="skill-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem eaque placeat ea consequuntur ut alias!</p>
+                        <p class="skill-description">React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.</p>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center mb-3">
                             <img class="me-4" src="./images/sql2.png" alt="">
                             <h4>SQL</h4>
                         </div>
-                        <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus expedita dignissimos fuga cupiditate tenetur.</p>
+                        <p class="skill-description">SQL stands for Structured Query Language. SQL is use for access and manipulate databases</p>
                     </div>
                 </div>
         </div>
@@ -141,10 +148,10 @@
     <!-- portfolio -->
     <div class="container-fluid" id="portfolio">
         <div class="container pt-5">
-            <h1 class="text-center">Some of my work</h1>
-            <div class="row">
-                <div class="offset-3 col-md-6">
-                    <p class="portfolio-mainText">I care about code quality and building truly pleasant user experiences, with attention to small but important details.</p>
+            <h1 class="text-center brand-text">Some of my work</h1>
+            <div class="row text-center">
+                <div class="offset-md-3 col-md-7">
+                    <p class="portfolio-mainText">This is my portfolio section. Below you can see my few project. Where I have used so far of my technical skill.</p>
                 </div>
             </div>
 
@@ -153,7 +160,7 @@
                   <div class="card portfolio-one">
                     <div class="card-body">
                       <h5 class="card-title">Panda Commerce</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text">It is a e-commerce site template. Which I have designed using only HTML/CSS.</p>
                       <div class="d-flex">
                           <p class="me-1 language language-color-one">HTML/CSS</p>
                           <p class="language language-color-one">Bootstrap</p>
@@ -170,9 +177,9 @@
                   <div class="card portfolio-two">
                     <div class="card-body">
                       <h5 class="card-title">Ema John</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text">It is also another e-commerce site. I use firebase & React JS to build it.</p>
                       <div class="d-flex">
-                        <p class="me-1 language language-color-two">Bootstrap</p>
+                        <p class="me-1 language language-color-two">Firebase</p>
                         <p class="language language-color-two">React JS</p>
                     </div>
                     <img class="img-fluid mt-3 mb-3" src="images/card2.jpg" alt="">
@@ -187,7 +194,7 @@
                     <div class="card portfolio-three">
                       <div class="card-body">
                         <h5 class="card-title">Hot Gadgets</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">This is another e-commerce site for selling different Hot Gadgets.</p>
                         <div class="d-flex" s>
                             <p class="me-1 language language-color-three">HTML/CSS</p>
                             <p class="language language-color-three">Bootstrap</p>
@@ -204,7 +211,38 @@
         </div>
     </div>
 
-    
+    <!-- Contact -->
+
+    <div class="container text-center mb-5" id="contact">
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <h1 class="brand-text mt-5">Get in touch</h1>
+        <p class="mb-3 portfolio-mainText">If your interested to contact with me. Feel free to email at mdmarzanhossain@gmail.com or use the form below.</p>
+        <form>
+            <div class="mb-3 d-flex">
+              <input type="text" class="form-control me-4" style="height: 60px" placeholder="Your Name">
+                <input type="email" class="form-control" style="height: 60px" id="floatingTextarea1" placeholder="Your Email">
+            </div>
+            <div class="form-floating mb-5">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                <label for="floatingTextarea2">Your Message</label>
+              </div>
+            <button type="submit" class="btn jumbotron-btn mb-5">SEND MESSAGE</button>
+          </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid footer">
+        <div class="container pt-4 pb-4 d-flex justify-content-between align-items-center">
+            <p style="font-size: 20px; color: #4a5568;">Design and developed by Marzan Hossain</p>
+            <div>
+                <a target="_blank" href="https://www.linkedin.com/in/marzan8975/"><i class="fab fa-linkedin me-3 contact-icon"></i></a>
+                <a target="_blank" href="https://github.com/mdmarzanhossain"><i class="fab fa-github contact-icon"></i></a>
+            </div>
+        </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
