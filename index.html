@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <div class="container">
+    <div class="container" id="top-menu">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><span class="first-name">Marzan </span><span class="last-name">Hossain</span></a>
@@ -252,12 +252,14 @@
     <script>
         $(document).ready(function textshow() {
             $(".jumbotron-firstText").show(2500);
-            $("#check").show(2500);
+            $("#check").show(3000);
             let height = $("display-user-image").css("img-fluid");
             console.log(height);
             $(".jumbotron-height").css("height", height);
             $("#display-user-image").slideDown( 2000 ).delay( 800 ).fadeIn( 2000 );
         });
+
+
     </script>
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
