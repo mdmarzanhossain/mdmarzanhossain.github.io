@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="./js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>Marzan Hossain</title>
 </head>
 <body>
@@ -48,14 +49,18 @@
     <!-- jumbotron -->
     <div class="container-fluid jumbotron-container mb-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img-fluid" src="./images/dp.png">
+            <div style="display: none" class="row" id="display-user-image">
+                <div class="col-md-6 jumbotron-height">
+                    <img   class="img-fluid" src="./images/dp.png" alt="Marzan Hossain">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div>
                         <p class="profession">Software Engineer</p>
-                        <h2 class="jumbotron-text mb-5"><span class="jumbotron-firstText">Hi there, I’m Marzan Hossain.</span><br>I help startups build amazing apps</h2>
+                        <h2 class="jumbotron-text mb-5">
+                            <span class="jumbotron-firstText" style="display: none">Hi there, I’m Marzan Hossain.</span >
+                            <br>
+                            <span id="check" style="display: none">I help startups build amazing apps</span>
+                        </h2>
                         <a target="_blank" href="https://www.linkedin.com/in/marzan8975/" class="btn jumbotron-btn">GET IN TOUCH</a>
                     </div>
                 </div>
@@ -242,8 +247,18 @@
                 <a target="_blank" href="https://github.com/mdmarzanhossain"><i class="fab fa-github contact-icon"></i></a>
             </div>
         </div>
-    </div>
 
+    </div>
+    <script>
+        $(document).ready(function textshow() {
+            $(".jumbotron-firstText").show(2500);
+            $("#check").show(2500);
+            let height = $("display-user-image").css("img-fluid");
+            console.log(height);
+            $(".jumbotron-height").css("height", height);
+            $("#display-user-image").slideDown( 2000 ).delay( 800 ).fadeIn( 2000 );
+        });
+    </script>
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
